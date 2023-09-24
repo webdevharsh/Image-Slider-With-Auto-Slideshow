@@ -1,0 +1,39 @@
+<!--javascriptpro_-->
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+        <link rel="stylesheet" href="Slider.css">
+        <title></title>
+</head>
+
+<body>
+<div class="container">
+  <div class="images">
+    <img src="bg1.jpg" alt="">   
+    <img src="bg2.jpg" alt="">      
+    <img src="bg3.jpg" alt="">      
+    <img src="bg4.jpg" alt="">      
+    <img src="bg5.jpg" alt="">   
+  </div>   
+  <div class="slide-left btn" onclick="side_slide(-1)">
+          <i class="fa-solid fa-chevron-left"></i>
+  </div>
+  <div class="slide-right btn" onclick="side_slide(1)">
+          <i class="fa-solid fa-chevron-right"></i>
+  </div>
+  <div class="btn-sliders">
+          <span onclick="btm_slide(1)"></span>
+          <span onclick="btm_slide(2)"></span>
+          <span onclick="btm_slide(3)"></span>
+          <span onclick="btm_slide(4)"></span>
+          <span onclick="btm_slide(5)"></span>
+  </div>  
+</div>
+<script src="Slider.js"></script>     
+</body>
+
+</html>
